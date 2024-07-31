@@ -1,0 +1,13 @@
+Q. Explain the concept of recursion and how it can simplify certain problems
+Ans. Recursion: A programming technique where a function calls itself in order to solve a problem. It simplifies problems by breaking them down into smaller, more manageable sub-problems that are similar to the original problem.
+Simplification: Recursion can simplify the code and make it more elegant for problems that have a natural recursive structure, such as calculating factorials, navigating hierarchical data structures, or implementing algorithms like binary search. It can reduce complex iterative solutions into more readable and concise code.
+
+Analysis
+
+Q. Discuss the time complexity of your recursive algorithm
+Ans. Time Complexity: The time complexity of a recursive algorithm depends on the number of recursive calls and the work done at each level. For instance, a simple recursive algorithm with a linear number of recursive calls has a time complexity of O(n), while algorithms with multiple recursive calls per step, like those solving the Fibonacci sequence naively, can have exponential time complexity, O(2^n).
+
+Q. Explain how to optimize the recursive solution to avoid excessive computation
+Ans. Memoization: Store the results of expensive function calls and reuse them when the same inputs occur again. This technique reduces the number of recursive calls and improves efficiency.
+Dynamic Programming: Convert the recursive approach into an iterative one by solving sub-problems and storing their solutions, thereby avoiding redundant calculations.
+Tail Recursion: Optimize recursive algorithms where the recursive call is the last operation performed. Tail recursion can be optimized by compilers or interpreters to improve performance and avoid stack overflow errors.

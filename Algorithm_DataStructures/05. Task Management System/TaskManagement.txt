@@ -1,0 +1,23 @@
+Q. Explain the different types of linked lists (Singly Linked List, Doubly Linked List)
+Ans. Singly Linked List: Consists of nodes where each node contains a data element and a reference (or pointer) to the next node. This structure allows for efficient insertions and deletions at the beginning or middle but requires traversal from the head to access other elements.
+Doubly Linked List: Consists of nodes where each node contains a data element, a reference to the next node, and a reference to the previous node. This structure allows for more flexible traversal in both directions and more efficient insertions and deletions at both ends and in the middle of the list.
+
+Analysis
+
+Q. Analyze the time complexity of each operation
+Ans. Add Task:
+Singly Linked List: O(1) - Adding a task at the beginning is constant time. Adding at the end or a specific position requires traversal, making it O(n) for general cases.
+Doubly Linked List: O(1) - Adding a task at the beginning or end is constant time if references to these ends are maintained. Insertion at specific positions can be O(n) due to traversal.
+Search Task:
+Singly Linked List: O(n) - Requires traversal from the head to find the task.
+Doubly Linked List: O(n) - Requires traversal from the head or tail to find the task.
+Traverse Tasks:
+Singly Linked List: O(n) - Involves iterating through each node from the head to the end.
+Doubly Linked List: O(n) - Involves iterating through each node from the head to the end or vice versa.
+Delete Task:
+Singly Linked List: O(n) - Requires traversal to find the node to delete.
+Doubly Linked List: O(n) - Requires traversal to find the node, but deletion itself is O(1) once the node is found.
+Q. Discuss the advantages of linked lists over arrays for dynamic data
+Ans. Dynamic Size: Linked lists can easily grow and shrink in size without the need for resizing or reallocation, unlike arrays which have a fixed size or require costly resizing operations.
+Efficient Insertions and Deletions: Insertions and deletions can be done in constant time at the beginning or end of the list, or O(1) if references are maintained, without shifting elements as required in arrays.
+Flexible Memory Usage: Linked lists do not require contiguous memory allocation, which can be advantageous for systems with fragmented memory.

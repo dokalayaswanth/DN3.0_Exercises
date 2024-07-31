@@ -1,0 +1,23 @@
+Q. Explain Big O notation and how it helps in analyzing algorithms
+Ans. Big O notation is a mathematical representation used to describe the performance or complexity of an algorithm in terms of its execution time or space requirements relative to the input size. It helps in analyzing how the algorithm scales with larger input sizes and provides a high-level understanding of its efficiency.
+
+Q. Describe the best, average, and worst-case scenarios for search operations
+Ans. Best-case: The search algorithm finds the target element at the first position in the dataset.
+Average-case: The search algorithm finds the target element at a random position within the dataset, typically considered to be halfway through.
+Worst-case: The search algorithm must check every element in the dataset before finding the target or determining it is not present.
+
+Q. Implement linear search and binary search algorithms
+Ans. Linear Search: Scans each element in the array until the target is found or the end is reached.
+Binary Search: Efficiently searches a sorted array by repeatedly dividing the search interval in half.
+
+Q. Store products in an array for linear search and a sorted array for binary search
+Ans. Linear search can be performed on an unsorted or sorted array. Binary search requires that the array be sorted to function correctly.
+
+Analysis:
+
+Q. Compare the time complexity of linear and binary search algorithms
+Ans. Linear Search: O(n) - The algorithm may need to check every element in the worst case.
+Binary Search: O(log n) - The algorithm halves the search interval each time, requiring significantly fewer comparisons in a sorted array.
+
+Q. Discuss which algorithm is more suitable for your platform and why
+Ans. Binary Search is more suitable for the e-commerce platform's search functionality due to its logarithmic time complexity, which provides faster search operations compared to linear search, especially with large datasets. However, binary search requires that the data be sorted, so there is an overhead in maintaining the sorted order.

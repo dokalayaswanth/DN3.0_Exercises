@@ -1,0 +1,13 @@
+Q. Explain linear search and binary search algorithms
+Ans. Linear Search: Scans each element in the array or list sequentially until the target element is found or the end is reached. It is simple but can be inefficient for large datasets as it requires checking each element.
+Binary Search: Efficiently searches a sorted array by repeatedly dividing the search interval in half. It eliminates half of the remaining elements with each comparison, making it faster for large datasets but requiring the data to be sorted.
+
+Analysis
+
+Q. Compare the time complexity of linear and binary search
+Ans. Linear Search: O(n) - In the worst case, every element in the list or array might need to be checked, where n is the number of elements.
+Binary Search: O(log n) - The algorithm halves the search space with each step, making it much faster than linear search for large datasets, given that the data is sorted.
+
+Q. Discuss when to use each algorithm based on the data set size and order
+Ans. Linear Search: Best used for small or unsorted datasets where the overhead of sorting or the simplicity of implementation is more appropriate. It is also suitable when the data is not static or is frequently updated.
+Binary Search: Ideal for large, sorted datasets where the benefits of faster search operations outweigh the cost of sorting or maintaining the order. It provides significant performance improvements for static data or data that doesn’t change frequently.
