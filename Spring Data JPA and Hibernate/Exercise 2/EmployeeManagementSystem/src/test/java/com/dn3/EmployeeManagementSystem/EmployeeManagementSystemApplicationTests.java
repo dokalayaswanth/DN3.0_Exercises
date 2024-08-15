@@ -1,10 +1,10 @@
-package com.ems.exercise2;
+package com.dn3.EmployeeManagementSystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Exercise2ApplicationTests {
+class EmployeeManagementSystemApplicationTests {
 
 	@Test
 	void contextLoads() {
